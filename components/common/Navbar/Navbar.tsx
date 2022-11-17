@@ -102,10 +102,12 @@ const Navbar: FC = () => {
           <SwitchTheme />
         </div>
       </div>
-      <div className="flex lg:hidden p-5 justify-between items-center px-4">
+      <div className="flex lg:hidden p-5 justify-between items-center px-4 gap-5">
         <div onClick={() => router.push('/')} className="cursor-pointer">
           <Logo />
         </div>
+        <div className="flex-1" />
+        <SwitchTheme />
 
         <div className="" onClick={() => openModal('MENU')}>
           <FiMenu className="w-6 h-6" />

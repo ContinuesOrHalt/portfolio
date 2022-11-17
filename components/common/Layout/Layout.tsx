@@ -59,7 +59,7 @@ const Layout: FC<Props | any> = ({ children }) => {
       <main className="fit bg-bg">
         <Container>
           {children}
-          {/* <Footer /> */}
+          <Footer />
         </Container>
       </main>
 

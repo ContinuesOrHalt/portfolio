@@ -8,7 +8,7 @@ import Link from 'next/link'
 const Jumbotron: FC = () => (
   <div
     className="lg:flex gap-9 mt-10 items-center"
-    style={{ minHeight: 'calc(100vh - 200px)' }}
+    style={{ minHeight: 'calc(100vh - 300px)' }}
   >
     <div className="flex-2">
       <h1 className="font-bold text-3xl lg:text-5xl uppercase">
