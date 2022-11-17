@@ -1,0 +1,19 @@
+{
+	"author.name": "Coh (Hoan Vũ)",
+	"author.introduce": "I'm a fullstack developer Javascript",
+	"author.quote": "Creative or Die",
+	"home": "Home",
+	"about": "About",
+	"about.title": "Hello! I'm Hoan Vũ",
+	"about.introduce": "Originally from Vietnam, in recent years, I have been honing my skills as a developer, building websites, mobile apps\n\nI strive to create solutions that appeal to users while keeping in mind complex technical dependencies for implementation such as scalability, flexibility, and performance.\n\nI've worked with small teams on small projects and larger development teams with multi-year product lifecycles.\n\nDepending on the team, resources, and product I've worked in multiple roles over the years - holding positions like Front-end Developer, Back-end Developer",
+	"info": "Info",
+	"work": "Work",
+	"learn_more": "Learn more",
+	"about.my_skill": "Here are a few technologies I’ve been working with recently:",
+	"see_detail_on_linkedin": "See detail on Linkedin",
+	"not_found": "Not found",
+	"not_found.desc": "The requested page doesn't exist or you don't have access to it.",
+	"info.title": "Let's talk.",
+	"work.title": "Few projects i have developed:",
+	"": ""
+}

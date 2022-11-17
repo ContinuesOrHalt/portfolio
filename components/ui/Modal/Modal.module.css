@@ -1,0 +1,19 @@
+.root {
+  @apply fixed bg-black bg-opacity-40 flex items-center inset-0 z-50 justify-center p-8;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.modal {
+  @apply bg-bg-secondary py-14 lg:py-6 px-4 lg:px-14 relative overflow-hidden flex flex-col rounded w-full;
+  max-height: calc(100vh - 64px);
+  max-width: 1240px;
+}
+
+.modal:focus {
+  @apply outline-none;
+}
+
+.close {
+  @apply focus:outline-none absolute right-0 top-0 m-6;
+}

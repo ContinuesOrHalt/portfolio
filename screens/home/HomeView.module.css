@@ -1,0 +1,56 @@
+.itemTarget {
+  background: linear-gradient(180deg, #062b2b 0%, #007171 100%);
+}
+
+.ballOpportunity {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #01fcc2 0%,
+    #17cccc 81.25%,
+    #41ffff 100%
+  );
+}
+.itemOpportunity {
+  background: linear-gradient(180deg, #01fcc2 0%, #17cccc 100%);
+}
+
+.textOpportunity {
+  background: linear-gradient(180deg, #ca05fe 0%, #5c27f3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.lineRightOpportunity {
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+}
+.lineRightOpportunity::after {
+  height: 2px;
+  background: #ffffff;
+  content: '';
+  position: absolute;
+  transform: rotate(150deg);
+  z-index: 2;
+  @apply w-[50px] -left-[45px] top-[12px] lg:w-[100px] lg:-left-[92px] lg:top-[25px]
+}
+
+.lineLeftOpportunity {
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+}
+.lineLeftOpportunity::after {
+  height: 2px;
+  background: #ffffff;
+  content: '';
+  position: absolute;
+  transform: rotate(30deg);
+  z-index: 2;
+  @apply w-[50px] -right-[45px] top-[12px] lg:w-[100px] lg:-right-[92px] lg:top-[25px]
+
+}

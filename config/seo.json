@@ -1,0 +1,25 @@
+{
+  "title": "Hoan Vũ",
+  "titleTemplate": "Hoan Vũ",
+  "description": "Hoan Vũ",
+  "openGraph": {
+    "title": "Hoan Vũ",
+    "description": "Hoan Vũ",
+    "type": "website",
+    "locale": "en_IE",
+    "site_name": "hoanvu",
+    "images": [
+      {
+        "url": "/logo.png",
+        "width": 800,
+        "height": 600,
+        "alt": "hoanvu"
+      }
+    ]
+  },
+  "twitter": {
+    "handle": "@nextjs",
+    "site": "@nextjs",
+    "cardType": "summary_large_image"
+  }
+}

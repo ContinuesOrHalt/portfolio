@@ -1,0 +1,19 @@
+{
+	"author.name": "Vũ Hoan",
+	"author.introduce": "I'm a fullstack developer Js",
+	"author.quote": "Creative or Die",
+	"home": "#",
+	"about": "Về tôi",
+	"about.title": "Xin chào! Tôi là Vũ Hoan",
+	"about.introduce": "Trong những năm gần đây, tôi đã trau dồi kỹ năng của mình với tư cách là một Developer\n\nTôi cố gắng tạo ra các giải pháp thu hút người dùng trong khi vẫn lưu ý đến các kỹ thuật phức tạp để triển khai, chẳng hạn như khả năng mở rộng, tính linh hoạt và hiệu suất của sản phẩm.\n\nTôi đã làm việc với các nhóm trong các dự án nhỏ và các nhóm phát triển lớn hơn với vòng đời sản phẩm kéo dài nhiều năm.\n\nTùy thuộc vào sản phẩm, tôi đã làm việc với nhiều vai trò trong nhiều năm - nắm giữ các vị trí như Front-end Developer,  Back-end Developer",
+	"info": "Liên hệ",
+	"work": "Work",
+	"learn_more": "Tìm hiểu thêm",
+	"about.my_skill": "Dưới đây là các công nghệ tôi thường dùng:",
+	"see_detail_on_linkedin": "Xem chi tiết trên Linkedin",
+	"not_found": "Not found",
+	"not_found.desc": "The requested page doesn't exist or you don't have access to it.",
+	"info.title": "Liên hệ với tôi.",
+	"work.title": "Một số dự án tôi đã phát triển:",
+	"": ""
+}

@@ -1,0 +1,19 @@
+.base {
+  @apply text-base font-medium;
+}
+
+.heading {
+  @apply text-5xl font-semibold tracking-wide;
+}
+
+.pageHeading {
+  @apply font-bold text-3.35xl;
+}
+
+.sectionHeading {
+  @apply text-2xl font-bold;
+}
+
+.labelInput {
+  @apply font-bold mb-1;
+}

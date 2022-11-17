@@ -1,0 +1,128 @@
+{
+  "name": "hoanvu-landing",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev -p 3005",
+    "dev:win": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "sideEffects": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.x"
+  },
+  "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.4.7",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "aos": "^2.3.4",
+    "autoprefixer": "^10.2.6",
+    "axios": "^0.24.0",
+    "body-scroll-lock": "^3.1.5",
+    "classnames": "^2.3.1",
+    "cookie": "^0.4.1",
+    "cross-env": "^7.0.3",
+    "formik": "^2.2.9",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "next": "^12.0.3",
+    "next-seo": "^4.26.0",
+    "next-themes": "^0.0.14",
+    "postcss": "^8.3.5",
+    "postcss-nesting": "^8.0.1",
+    "postcss-preset-env": "^7.8.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.4.0",
+    "react-intl": "^6.0.3",
+    "react-merge-refs": "^1.1.0",
+    "react-query": "^3.34.7",
+    "react-slick": "^0.28.1",
+    "react-toastify": "^8.2.0",
+    "react-use": "^17.3.2",
+    "slick-carousel": "^1.8.1",
+    "tabbable": "^5.2.0",
+    "tailwindcss": "^3.0.24",
+    "uuidv4": "^6.2.10",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.21.5",
+    "@graphql-codegen/schema-ast": "^1.18.3",
+    "@graphql-codegen/typescript": "^1.22.2",
+    "@graphql-codegen/typescript-operations": "^1.18.1",
+    "@next/bundle-analyzer": "^10.2.3",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@types/aos": "^3.0.4",
+    "@types/body-scroll-lock": "^2.6.1",
+    "@types/chec__commerce.js": "^2.8.4",
+    "@types/cookie": "^0.4.0",
+    "@types/js-cookie": "^2.2.6",
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/lodash.random": "^3.2.6",
+    "@types/lodash.throttle": "^4.1.6",
+    "@types/node": "^15.12.4",
+    "@types/react": "^17.0.8",
+    "@types/react-slick": "^0.23.8",
+    "deepmerge": "^4.2.2",
+    "eslint": "^7.31.0",
+    "eslint-config-next": "^11.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "graphql": "^15.5.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "prettier": "^2.3.0",
+    "typescript": "4.3.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint",
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.{md,mdx,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "next-unused": {
+    "alias": {
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@screen/*": [
+        "screen/*"
+      ]
+    },
+    "debug": true,
+    "include": [
+      "components",
+      "lib",
+      "pages"
+    ],
+    "exclude": [],
+    "entrypoints": [
+      "pages"
+    ]
+  }
+}

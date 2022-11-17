@@ -1,0 +1,77 @@
+:root {
+  --primary: #f39c12;
+  --secondary: #f1c40f;
+
+  --success: #32d74b;
+  --danger: #ac0f48;
+
+  --text-base: #ffffff;
+  --text-primary: #f39c12;
+  --text-secondary: #f1c40f;
+  --text-active: #f39c12;
+  --text-disabled: #8c8c8c;
+
+  --bg: #2a2a2b;
+  --bg-secondary: #363636;
+}
+
+[data-theme='light'] {
+  --primary: #e74c3c;
+  --secondary: #e9857a;
+
+  --text-base: #363636;
+  --text-primary: #e74c3c;
+  --text-secondary: #e9857a;
+  --text-active: #e74c3c;
+  --text-disabled: #8c8c8c;
+
+  --bg: #f5f5f5;
+  --bg-secondary: #ecf0f1;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  font-family: Montserrat;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-base);
+  overscroll-behavior-x: none;
+  font-weight: 500;
+}
+
+body {
+  background-color: var(--bg);
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+}
+
+main {
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

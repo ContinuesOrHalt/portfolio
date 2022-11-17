@@ -1,0 +1,16 @@
+.root {
+  @apply py-2.5 px-4 w-full appearance-none transition duration-150 ease-in-out;
+}
+
+.root:focus {
+  @apply outline-none shadow;
+}
+
+.primary {
+  @apply bg-bg-secondary border border-bg-secondary rounded;
+}
+
+.root:disabled {
+  @apply text-gray-400 !important;
+}
+

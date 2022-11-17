@@ -1,0 +1,28 @@
+.root {
+  /* @apply ; */
+}
+
+.smI {
+  width: 38px;
+  height: 38px;
+}
+.mdI {
+  width: 58px;
+  height: 58px;
+}
+.customI {
+  /* @apply h-12.5; */
+}
+
+.smH {
+  width: 191px;
+  height: 53px;
+}
+.mdH {
+  width: 191px;
+  height: 53px;
+}
+.customH {
+  /* @apply h-12.5; */
+}
+

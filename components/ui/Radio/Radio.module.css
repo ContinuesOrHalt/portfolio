@@ -1,0 +1,7 @@
+.md {
+  @apply h-4 w-4 text-sm;
+}
+
+.lg {
+  @apply h-6 w-6 text-base;
+}

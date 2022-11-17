@@ -1,0 +1,8 @@
+.root:checked {
+  right: 0;
+  border-color: var(--brand1);
+}
+
+.root:checked + .label {
+  background-color: var(--brand1);
+}

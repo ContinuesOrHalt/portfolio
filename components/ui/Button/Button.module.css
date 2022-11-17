@@ -1,0 +1,69 @@
+.root {
+  @apply cursor-pointer flex gap-2.5
+  px-3 transition ease-in-out duration-150
+  shadow-sm text-center justify-center
+  border items-center
+  tracking-wide rounded-full;
+}
+
+.root:hover {
+  /* @apply ; */
+}
+
+.root:focus {
+  @apply shadow outline-none;
+}
+
+.root[data-active] {
+  /* @apply ; */
+}
+
+/* size */
+.sm {
+  @apply h-10;
+}
+
+.md {
+  @apply h-12;
+}
+
+.xs {
+  @apply h-8;
+}
+
+/* variant */
+.primary {
+  @apply bg-primary text-white border-transparent font-bold text-2xl hover:bg-secondary;
+}
+
+.secondary {
+  @apply bg-transparent;
+}
+
+.outline {
+  @apply bg-white text-active border-primary;
+}
+
+.naked {
+  @apply bg-transparent;
+}
+
+.naked:hover,
+.naked:focus {
+  @apply bg-transparent border-none shadow-none;
+}
+
+/* loading */
+.loading {
+  @apply cursor-not-allowed;
+}
+
+/* disabled, */
+.disabled,
+.disabled:hover {
+  @apply cursor-not-allowed;
+  filter: grayscale(0.5);
+  -webkit-transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
