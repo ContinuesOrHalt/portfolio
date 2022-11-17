@@ -33,7 +33,7 @@ const Footer: FC = () => {
             onClick={() => router.push('/')}
             className="cursor-pointer w-fit mx-auto lg:mx-0"
           >
-            <Logo size="sm" type="horizontal" />
+            <Logo />
           </div>
 
           <div className="flex gap-5 justify-center lg:justify-start lg:gap-10 mt-5">
