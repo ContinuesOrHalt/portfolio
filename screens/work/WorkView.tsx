@@ -22,13 +22,13 @@ const PROJECTS = [
   },
   {
     time: '2019',
-    name: 'Fly where',
+    name: 'Tg 3.0',
     href: '',
     tech: '(VueJS, VueX, ...)',
   },
   {
     time: '2019',
-    name: 'Tg 3.0',
+    name: 'Fly where',
     href: 'https://play.google.com/store/apps/details?id=com.dronexchange.flywhere',
     tech: '(React Native, Firebase, ...)',
   },
