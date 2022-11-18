@@ -11,13 +11,14 @@ import { FiChevronDown, FiX } from 'react-icons/fi'
 import { FormattedMessage } from 'react-intl'
 
 const Language: FC<any> = () => {
-  const { locale = 'en' } = useRouter()
+  const { locale = 'en', asPath, pathname, replace } = useRouter()
   const [isShow, setShow] = useState(false)
   const { closeModal } = useUI()
 
   const selectLang = (lang: string) => {
     setShow(false)
     closeModal()
+    replace(pathname, asPath, { locale: lang })
   }
 
   return (

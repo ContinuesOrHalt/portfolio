@@ -41,7 +41,7 @@ export default function AboutView() {
             <FormattedMessage id="see_detail_on_linkedin" />
           </a>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 mt-10 lg:mt-0">
           <p className="text-2xl whitespace-pre-line ">
             <FormattedMessage id="about.my_skill" />
           </p>

@@ -10,7 +10,7 @@ const Jumbotron: FC = () => (
     className="lg:flex gap-9 mt-10 items-center"
     style={{ minHeight: 'calc(100vh - 300px)' }}
   >
-    <div className="flex-2">
+    <div className="flex-2 z-10">
       <h1 className="font-bold text-3xl lg:text-5xl uppercase">
         <FormattedMessage id="author.name" />
       </h1>
@@ -43,8 +43,8 @@ const Jumbotron: FC = () => (
     </div>
 
     <div
-      className="flex-1 flex justify-center mt-10 lg:mt-0"
-      data-aos="fade-down"
+      className="flex-1 flex justify-center mt-10 lg:mt-0 z-0"
+      data-aos="fade-up"
     >
       <div className="rounded-full overflow-hidden aspect-1 border-gray-300 border">
         <Image alt="im1" src={img1} objectFit="contain" />
