@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl'
 const PROJECTS = [
   {
     time: '2022',
-    name: 'Yoko',
+    name: 'Yok',
     href: '',
     tech: '(React Js, Next Js, ...)',
   },
