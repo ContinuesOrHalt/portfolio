@@ -4,8 +4,8 @@ import { FormattedMessage } from 'react-intl'
 const PROJECTS = [
   {
     time: '2022',
-    name: '88token',
-    href: 'https://88token.io/',
+    name: 'Yoko',
+    href: '',
     tech: '(React Js, Next Js, ...)',
   },
   {
@@ -17,7 +17,7 @@ const PROJECTS = [
   {
     time: '2020',
     name: 'EZBizTrip',
-    href: 'https://www.ezbiztrip.com/',
+    href: '',
     tech: '(NodeJs, React Js, Mongodb, ...)',
   },
   {
